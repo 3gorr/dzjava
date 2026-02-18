@@ -132,9 +132,9 @@ public class Main {
 
     private static Difficulty chooseDifficultyInteractive(Scanner sc, Random rnd) {
         System.out.println("Выберите сложность (нажмите Enter для случайной сложности):");
-        System.out.println("1 = EASY");
-        System.out.println("2 = MEDIUM");
-        System.out.println("3 = HARD");
+        System.out.println("1) EASY");
+        System.out.println("2) MEDIUM");
+        System.out.println("3) HARD");
         System.out.print("> ");
         String line = sc.nextLine().trim().toLowerCase();
         if (line.isEmpty()) {
